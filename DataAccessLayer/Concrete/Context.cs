@@ -27,6 +27,8 @@ namespace DataAccessLayer.Concrete
         public DbSet<NewsLetter> NewsLetters { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<Featured1> Featured1s { get; set; }
+        public DbSet<Featured> Featureds { get; set; }
 
 
 

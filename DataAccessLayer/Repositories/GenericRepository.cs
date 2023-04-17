@@ -48,13 +48,5 @@ namespace DataAccessLayer.Repositories
             return c.Set<T>().Where(filter).ToList();
         }
 
-        public T GetListByFilterByD(Expression<Func<T, bool>> filter)
-        {
-            //using var c = new Context();
-            //return c.Set<T>().Where(x => x.id == id).FirstOrDefault();
-            throw new NotImplementedException();
-        }
-
-
     }
 }
