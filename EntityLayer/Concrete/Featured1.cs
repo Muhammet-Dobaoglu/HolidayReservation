@@ -9,7 +9,8 @@ namespace EntityLayer.Concrete
 {
     public class Featured1
     {
-        public int FeatureID { get; set; }
+        [Key]
+        public int Feature1ID { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public string Image { get; set; }
