@@ -17,3 +17,4 @@ namespace EntityLayer.Concrete
         public bool Status { get; set; }
     }
 }
+
